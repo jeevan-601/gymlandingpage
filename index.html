@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FORGE — Premium Fitness & Luxury Gym. Transform your body. Elevate your life. Expert trainers, elite equipment, personalized coaching." />
+  <meta name="keywords" content="luxury gym, premium fitness, personal training, strength training, elite membership" />
+  <meta property="og:title" content="FORGE — Premium Fitness" />
+  <meta property="og:description" content="Transform Your Body. Elevate Your Life." />
+  <title>FORGE — Premium Fitness</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============================================================
+     LOADER
+     ============================================================ -->
+<div id="loader" role="status" aria-label="Loading FORGE Gym">
+  <div class="loader-logo">FORGE</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <a href="#hero" class="nav-logo" aria-label="FORGE Home">FORGE<span>.</span></a>
+  <ul class="nav-links" role="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#programs">Programs</a></li>
+    <li><a href="#trainers">Trainers</a></li>
+    <li><a href="#membership">Membership</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact" class="nav-cta">Free Trial</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+  <a href="#about">About</a>
+  <a href="#programs">Programs</a>
+  <a href="#trainers">Trainers</a>
+  <a href="#membership">Membership</a>
+  <a href="#success">Results</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Free Trial</a>
+</div>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="hero" aria-label="Hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-noise"></div>
+  <div class="hero-lines" aria-hidden="true">
+    <div class="hero-line"></div>
+    <div class="hero-line"></div>
+    <div class="hero-line"></div>
+  </div>
+
+  <div class="hero-image-placeholder" aria-hidden="true">
+    <div class="hero-img-mock">
+      <div class="hero-img-inner">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8">
+          <path d="M6.5 6.5h11M6.5 12h11M6.5 17.5h11"/>
+          <circle cx="4" cy="6.5" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="17.5" r="1"/>
+          <circle cx="20" cy="6.5" r="1"/><circle cx="20" cy="12" r="1"/><circle cx="20" cy="17.5" r="1"/>
+        </svg>
+        <span class="hero-img-label">Gym Photography</span>
+      </div>
+      <div class="hero-img-accent"></div>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-glass reveal">
+      <div class="hero-eyebrow">Elite Fitness Club</div>
+      <h1 class="hero-title">
+        Transform<br />
+        Your Body.<br />
+        <span class="highlight">Elevate</span><br />
+        Your Life.
+      </h1>
+      <p class="hero-sub">
+        Where ambition meets excellence. World-class trainers, state-of-the-art equipment,
+        and a community built for champions.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Join Now</a>
+        <a href="#programs" class="btn-secondary">View Programs</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-val"><span data-counter data-target="1200" data-suffix="+">0+</span></div>
+          <div class="hero-stat-label">Members</div>
+        </div>
+        <div>
+          <div class="hero-stat-val"><span data-counter data-target="24" data-suffix="">0</span></div>
+          <div class="hero-stat-label">Expert Trainers</div>
+        </div>
+        <div>
+          <div class="hero-stat-val"><span data-counter data-target="98" data-suffix="%">0%</span></div>
+          <div class="hero-stat-label">Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">
+    <div class="scroll-dot"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about" aria-label="About FORGE">
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-img-wrap reveal">
+        <div class="about-img-mock">
+          <div class="about-img-inner" style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;color:#BFC4C9;">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+          </div>
+        </div>
+        <div class="about-img-badge">
+          <strong>12</strong>
+          <span>Years of Excellence</span>
+        </div>
+        <div class="about-accent-line"></div>
+      </div>
+
+      <div class="about-text">
+        <div class="reveal">
+          <div class="section-label">Our Story</div>
+          <h2 class="section-title">Built For <em>Champions</em></h2>
+          <div class="divider"></div>
+        </div>
+        <p class="reveal reveal-delay-1">
+          FORGE was founded on a single conviction: every individual deserves access to elite-level
+          fitness. We built our facility with the same precision and passion that our members bring
+          to every training session.
+        </p>
+        <p class="reveal reveal-delay-2">
+          From Olympic athletes to first-time gym-goers, we craft personalized journeys that
+          unlock real, lasting transformation — backed by science, driven by results.
+        </p>
+        <div class="about-features reveal reveal-delay-3">
+          <div class="about-feature">
+            <div class="about-feature-icon">🏆</div>
+            <div class="about-feature-text">
+              <strong>Expert Trainers</strong>
+              <span>Certified professionals with 10+ years experience</span>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">⚙️</div>
+            <div class="about-feature-text">
+              <strong>Premium Equipment</strong>
+              <span>Latest technology from top-tier brands</span>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">🎯</div>
+            <div class="about-feature-text">
+              <strong>Personalized Coaching</strong>
+              <span>Tailored programs for your unique goals</span>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">📈</div>
+            <div class="about-feature-text">
+              <strong>Proven Results</strong>
+              <span>98% of members exceed their initial goals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROGRAMS
+     ============================================================ -->
+<section id="programs" aria-label="Fitness Programs">
+  <div class="container">
+    <div class="programs-header reveal">
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Elite <em>Programs</em></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="programs-grid">
+
+      <article class="program-card reveal reveal-delay-1">
+        <div class="program-img">
+          <div class="program-img-inner">
+            <div class="program-icon-wrap">💪</div>
+          </div>
+        </div>
+        <div class="program-body">
+          <div class="program-category">Power &amp; Muscle</div>
+          <h3 class="program-name">Strength Training</h3>
+          <p class="program-desc">Build raw power and muscle mass with progressive overload protocols designed by elite strength coaches.</p>
+          <a href="#contact" class="program-link">Learn More</a>
+        </div>
+      </article>
+
+      <article class="program-card reveal reveal-delay-2">
+        <div class="program-img">
+          <div class="program-img-inner">
+            <div class="program-icon-wrap">🔥</div>
+          </div>
+        </div>
+        <div class="program-body">
+          <div class="program-category">Body Composition</div>
+          <h3 class="program-name">Fat Loss</h3>
+          <p class="program-desc">Science-backed metabolic conditioning and nutrition strategies to shred body fat while preserving lean muscle.</p>
+          <a href="#contact" class="program-link">Learn More</a>
+        </div>
+      </article>
+
+      <article class="program-card reveal reveal-delay-3">
+        <div class="program-img">
+          <div class="program-img-inner">
+            <div class="program-icon-wrap">⚡</div>
+          </div>
+        </div>
+        <div class="program-body">
+          <div class="program-category">Movement &amp; Agility</div>
+          <h3 class="program-name">Functional Fitness</h3>
+          <p class="program-desc">Real-world movement patterns that enhance performance, mobility, and resilience for everyday life and sport.</p>
+          <a href="#contact" class="program-link">Learn More</a>
+        </div>
+      </article>
+
+      <article class="program-card reveal reveal-delay-1">
+        <div class="program-img">
+          <div class="program-img-inner">
+            <div class="program-icon-wrap">🎯</div>
+          </div>
+        </div>
+        <div class="program-body">
+          <div class="program-category">1-on-1 Coaching</div>
+          <h3 class="program-name">Personal Training</h3>
+          <p class="program-desc">Undivided attention from a dedicated trainer who crafts and adjusts your program in real-time for maximum results.</p>
+          <a href="#contact" class="program-link">Learn More</a>
+        </div>
+      </article>
+
+      <article class="program-card reveal reveal-delay-2">
+        <div class="program-img">
+          <div class="program-img-inner">
+            <div class="program-icon-wrap">🏋️</div>
+          </div>
+        </div>
+        <div class="program-body">
+          <div class="program-category">High Intensity</div>
+          <h3 class="program-name">Cross Training</h3>
+          <p class="program-desc">Explosive workouts combining weightlifting, gymnastics, and metabolic conditioning to forge elite athletes.</p>
+          <a href="#contact" class="program-link">Learn More</a>
+        </div>
+      </article>
+
+      <article class="program-card reveal reveal-delay-3">
+        <div class="program-img">
+          <div class="program-img-inner">
+            <div class="program-icon-wrap">🥗</div>
+          </div>
+        </div>
+        <div class="program-body">
+          <div class="program-category">Fuel &amp; Recovery</div>
+          <h3 class="program-name">Nutrition Coaching</h3>
+          <p class="program-desc">Custom meal plans and nutritional strategies crafted to accelerate your body transformation inside and out.</p>
+          <a href="#contact" class="program-link">Learn More</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TRAINERS
+     ============================================================ -->
+<section id="trainers" aria-label="Our Trainers">
+  <div class="container">
+    <div class="trainers-header reveal">
+      <div class="section-label">The Team</div>
+      <h2 class="section-title">Meet The <em>Experts</em></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="trainers-grid">
+
+      <article class="trainer-card reveal reveal-delay-1">
+        <div class="trainer-img">
+          <div class="trainer-img-placeholder">AK</div>
+          <div class="trainer-img-overlay"></div>
+          <div class="trainer-social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Twitter">TW</a>
+          </div>
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Alex Kane</div>
+          <div class="trainer-spec">Strength &amp; Powerlifting</div>
+          <div class="trainer-exp"><strong>12 years</strong> experience</div>
+        </div>
+      </article>
+
+      <article class="trainer-card reveal reveal-delay-2">
+        <div class="trainer-img">
+          <div class="trainer-img-placeholder">SR</div>
+          <div class="trainer-img-overlay"></div>
+          <div class="trainer-social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Twitter">TW</a>
+          </div>
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Sofia Reyes</div>
+          <div class="trainer-spec">Functional Fitness &amp; Mobility</div>
+          <div class="trainer-exp"><strong>9 years</strong> experience</div>
+        </div>
+      </article>
+
+      <article class="trainer-card reveal reveal-delay-3">
+        <div class="trainer-img">
+          <div class="trainer-img-placeholder">MC</div>
+          <div class="trainer-img-overlay"></div>
+          <div class="trainer-social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Twitter">TW</a>
+          </div>
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Marcus Cole</div>
+          <div class="trainer-spec">Body Composition &amp; HIIT</div>
+          <div class="trainer-exp"><strong>11 years</strong> experience</div>
+        </div>
+      </article>
+
+      <article class="trainer-card reveal reveal-delay-4">
+        <div class="trainer-img">
+          <div class="trainer-img-placeholder">JL</div>
+          <div class="trainer-img-overlay"></div>
+          <div class="trainer-social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Twitter">TW</a>
+          </div>
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Jade Lin</div>
+          <div class="trainer-spec">Nutrition &amp; Weight Loss</div>
+          <div class="trainer-exp"><strong>8 years</strong> experience</div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MEMBERSHIP
+     ============================================================ -->
+<section id="membership" aria-label="Membership Plans">
+  <div class="container">
+    <div class="membership-header reveal">
+      <div class="section-label">Pricing</div>
+      <h2 class="section-title">Choose Your <em>Path</em></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="membership-grid">
+
+      <div class="plan-card reveal reveal-delay-1">
+        <div class="plan-tier">Starter</div>
+        <div class="plan-name">Basic</div>
+        <div class="plan-price">
+          <span class="currency">$</span><span class="amount">49</span><span class="period">/month</span>
+        </div>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature active"><span class="check">✓</span> Gym Floor Access</li>
+          <li class="plan-feature active"><span class="check">✓</span> Cardio Equipment</li>
+          <li class="plan-feature active"><span class="check">✓</span> Locker Room</li>
+          <li class="plan-feature active"><span class="check">✓</span> Group Classes (2/month)</li>
+          <li class="plan-feature"><span class="cross">✗</span> Personal Training</li>
+          <li class="plan-feature"><span class="cross">✗</span> Nutrition Coaching</li>
+          <li class="plan-feature"><span class="cross">✗</span> Recovery Suite</li>
+        </ul>
+        <button class="plan-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Join Now</button>
+      </div>
+
+      <div class="plan-card popular reveal reveal-delay-2">
+        <div class="popular-badge">Most Popular</div>
+        <div class="plan-tier">Best Value</div>
+        <div class="plan-name">Premium</div>
+        <div class="plan-price">
+          <span class="currency">$</span><span class="amount">99</span><span class="period">/month</span>
+        </div>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature active"><span class="check">✓</span> Unlimited Gym Access</li>
+          <li class="plan-feature active"><span class="check">✓</span> All Equipment</li>
+          <li class="plan-feature active"><span class="check">✓</span> Unlimited Group Classes</li>
+          <li class="plan-feature active"><span class="check">✓</span> 2 PT Sessions/month</li>
+          <li class="plan-feature active"><span class="check">✓</span> Nutrition Plan</li>
+          <li class="plan-feature active"><span class="check">✓</span> Recovery Suite</li>
+          <li class="plan-feature"><span class="cross">✗</span> Priority Booking</li>
+        </ul>
+        <button class="plan-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Join Now</button>
+      </div>
+
+      <div class="plan-card reveal reveal-delay-3">
+        <div class="plan-tier">All-Inclusive</div>
+        <div class="plan-name">Elite</div>
+        <div class="plan-price">
+          <span class="currency">$</span><span class="amount">179</span><span class="period">/month</span>
+        </div>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature active"><span class="check">✓</span> 24/7 VIP Access</li>
+          <li class="plan-feature active"><span class="check">✓</span> All Equipment & Zones</li>
+          <li class="plan-feature active"><span class="check">✓</span> Unlimited PT Sessions</li>
+          <li class="plan-feature active"><span class="check">✓</span> Custom Nutrition Plan</li>
+          <li class="plan-feature active"><span class="check">✓</span> Priority Booking</li>
+          <li class="plan-feature active"><span class="check">✓</span> Recovery &amp; Spa Suite</li>
+          <li class="plan-feature active"><span class="check">✓</span> Monthly Body Analysis</li>
+        </ul>
+        <button class="plan-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Join Now</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SUCCESS STORIES
+     ============================================================ -->
+<section id="success" aria-label="Success Stories">
+  <div class="container">
+    <div class="success-header reveal">
+      <div class="section-label">Transformations</div>
+      <h2 class="section-title">Real <em>Results</em></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="success-stats reveal">
+      <div class="success-stat">
+        <div class="success-stat-num" data-counter data-target="3500" data-suffix="+">0+</div>
+        <div class="success-stat-label">Transformations</div>
+      </div>
+      <div class="success-stat">
+        <div class="success-stat-num" data-counter data-target="42" data-suffix="lbs">0lbs</div>
+        <div class="success-stat-label">Avg. Weight Lost</div>
+      </div>
+      <div class="success-stat">
+        <div class="success-stat-num" data-counter data-target="90" data-suffix="%">0%</div>
+        <div class="success-stat-label">Goal Achievement</div>
+      </div>
+      <div class="success-stat">
+        <div class="success-stat-num" data-counter data-target="16" data-suffix="wks">0wks</div>
+        <div class="success-stat-label">Avg. Time to Results</div>
+      </div>
+    </div>
+    <div class="stories-grid">
+      <article class="story-card reveal reveal-delay-1">
+        <div class="story-comparison">
+          <div class="story-before">
+            <span class="story-label">Before</span>
+            <div class="story-img-ph">JM</div>
+          </div>
+          <div class="story-after">
+            <span class="story-label">After</span>
+            <div class="story-img-ph">JM</div>
+          </div>
+        </div>
+        <div class="story-body">
+          <div class="story-name">James M., 34</div>
+          <div class="story-result">Lost 52 lbs in 5 months</div>
+          <p class="story-desc">"FORGE completely changed my relationship with fitness. The trainers pushed me beyond limits I thought were impossible."</p>
+        </div>
+      </article>
+      <article class="story-card reveal reveal-delay-2">
+        <div class="story-comparison">
+          <div class="story-before">
+            <span class="story-label">Before</span>
+            <div class="story-img-ph">KP</div>
+          </div>
+          <div class="story-after">
+            <span class="story-label">After</span>
+            <div class="story-img-ph">KP</div>
+          </div>
+        </div>
+        <div class="story-body">
+          <div class="story-name">Karen P., 28</div>
+          <div class="story-result">Gained 18 lbs of muscle</div>
+          <p class="story-desc">"From zero gym experience to competing in my first fitness event — FORGE made it happen in just 8 months."</p>
+        </div>
+      </article>
+      <article class="story-card reveal reveal-delay-3">
+        <div class="story-comparison">
+          <div class="story-before">
+            <span class="story-label">Before</span>
+            <div class="story-img-ph">RT</div>
+          </div>
+          <div class="story-after">
+            <span class="story-label">After</span>
+            <div class="story-img-ph">RT</div>
+          </div>
+        </div>
+        <div class="story-body">
+          <div class="story-name">Ryan T., 41</div>
+          <div class="story-result">Dropped 3 clothing sizes</div>
+          <p class="story-desc">"At 41, I'm in the best shape of my life. The personalized program and nutrition coaching made all the difference."</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     GALLERY
+     ============================================================ -->
+<section id="gallery" aria-label="Gallery">
+  <div class="container">
+    <div class="gallery-header reveal">
+      <div class="section-label">Inside FORGE</div>
+      <h2 class="section-title">The <em>Experience</em></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="gallery-grid reveal">
+
+      <div class="gallery-item" data-label="Main Training Floor" role="button" tabindex="0" aria-label="View gym image: Main Training Floor">
+        <div class="gallery-item-inner">
+          <div class="gallery-ph" style="height:260px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <div class="gallery-overlay"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-label="Free Weights Zone" role="button" tabindex="0" aria-label="View gym image: Free Weights Zone">
+        <div class="gallery-item-inner">
+          <div class="gallery-ph" style="height:180px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <div class="gallery-overlay"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-label="Cardio Suite" role="button" tabindex="0" aria-label="View gym image: Cardio Suite">
+        <div class="gallery-item-inner">
+          <div class="gallery-ph" style="height:220px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <div class="gallery-overlay"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-label="Personal Training Studio" role="button" tabindex="0" aria-label="View gym image: Personal Training Studio">
+        <div class="gallery-item-inner">
+          <div class="gallery-ph" style="height:300px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <div class="gallery-overlay"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-label="Locker Room" role="button" tabindex="0" aria-label="View gym image: Locker Room">
+        <div class="gallery-item-inner">
+          <div class="gallery-ph" style="height:190px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <div class="gallery-overlay"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-label="Olympic Lifting Platform" role="button" tabindex="0" aria-label="View gym image: Olympic Lifting Platform">
+        <div class="gallery-item-inner">
+          <div class="gallery-ph" style="height:240px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <div class="gallery-overlay"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-label="Group Class Studio" role="button" tabindex="0" aria-label="View gym image: Group Class Studio">
+        <div class="gallery-item-inner">
+          <div class="gallery-ph" style="height:210px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <div class="gallery-overlay"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-label="Recovery Suite" role="button" tabindex="0" aria-label="View gym image: Recovery Suite">
+        <div class="gallery-item-inner">
+          <div class="gallery-ph" style="height:170px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <div class="gallery-overlay"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" role="dialog" aria-label="Image viewer" aria-modal="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">✕</button>
+  <div class="lightbox-content" id="lightboxContent"></div>
+</div>
+
+<!-- ============================================================
+     TESTIMONIALS
+     ============================================================ -->
+<section id="testimonials" aria-label="Member Testimonials">
+  <div class="container">
+    <div class="testimonials-header reveal">
+      <div class="section-label">Member Reviews</div>
+      <h2 class="section-title">What They <em>Say</em></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="testimonials-carousel reveal">
+      <div class="testimonials-track">
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"FORGE is unlike any gym I've ever been to. The coaches genuinely care about your progress, and the facility is world-class. Best investment I've ever made in myself."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">DH</div>
+              <div>
+                <div class="testimonial-name">David H.</div>
+                <div class="testimonial-role">Elite Member · 2 years</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"Sofia transformed my approach to training. In 6 months I went from struggling with basic movements to performing Olympic lifts. The programming is next level."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">LM</div>
+              <div>
+                <div class="testimonial-name">Lisa M.</div>
+                <div class="testimonial-role">Premium Member · 1 year</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"The nutrition coaching alone was worth the Elite membership. Combined with Marcus's training program, I dropped 35 lbs and built more muscle than I thought possible."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">TK</div>
+              <div>
+                <div class="testimonial-name">Tony K.</div>
+                <div class="testimonial-role">Elite Member · 8 months</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"As a busy professional I was skeptical I could find time to get fit. FORGE's flexible scheduling and efficient programming proved me completely wrong. I'm hooked."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">AW</div>
+              <div>
+                <div class="testimonial-name">Amanda W.</div>
+                <div class="testimonial-role">Premium Member · 14 months</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"Clean, modern, motivated atmosphere. Every single trainer knows your name and your goals. It feels exclusive without being intimidating. FORGE is simply the best."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">BN</div>
+              <div>
+                <div class="testimonial-name">Ben N.</div>
+                <div class="testimonial-role">Basic Member · 6 months</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"I've been to gyms in London, Dubai, and NYC. FORGE stands shoulder to shoulder with all of them. The recovery suite alone makes this worth every penny."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">RP</div>
+              <div>
+                <div class="testimonial-name">Rachel P.</div>
+                <div class="testimonial-role">Elite Member · 3 years</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="carouselPrev" aria-label="Previous testimonials">‹</button>
+        <div class="carousel-dots">
+          <div class="carousel-dot active" aria-label="Slide 1"></div>
+          <div class="carousel-dot" aria-label="Slide 2"></div>
+        </div>
+        <button class="carousel-btn" id="carouselNext" aria-label="Next testimonials">›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BMI CALCULATOR
+     ============================================================ -->
+<section id="calculator" aria-label="BMI Calculator">
+  <div class="container">
+    <div class="calculator-inner">
+      <div class="calc-text">
+        <div class="reveal">
+          <div class="section-label">Free Tool</div>
+          <h2 class="section-title">BMI <em>Calculator</em></h2>
+          <div class="divider"></div>
+        </div>
+        <p class="reveal reveal-delay-1">
+          Understanding your Body Mass Index is the first step toward defining your fitness goals.
+          Use our calculator to get your baseline — then let FORGE's experts build your personalized
+          transformation plan.
+        </p>
+        <p class="reveal reveal-delay-2">
+          BMI is one of several metrics we use at FORGE. Our elite coaches combine it with body
+          composition scans, metabolic testing, and movement assessments for a complete picture.
+        </p>
+      </div>
+      <div class="calc-card reveal reveal-delay-2">
+        <div class="calc-title">Calculate Your BMI</div>
+        <div class="calc-sub">Find out where you stand today.</div>
+        <div class="calc-tabs" role="tablist">
+          <button class="calc-tab active" data-unit="metric" role="tab" aria-selected="true">Metric</button>
+          <button class="calc-tab" data-unit="imperial" role="tab" aria-selected="false">Imperial</button>
+        </div>
+        <div class="calc-fields">
+          <div class="calc-field">
+            <label for="calcHeight">Height (cm)</label>
+            <input type="number" id="calcHeight" placeholder="e.g. 175" min="50" max="300" aria-label="Height in centimeters" />
+          </div>
+          <div class="calc-field">
+            <label for="calcWeight">Weight (kg)</label>
+            <input type="number" id="calcWeight" placeholder="e.g. 75" min="10" max="500" aria-label="Weight in kilograms" />
+          </div>
+          <button class="calc-btn" id="calcBtn">Calculate BMI</button>
+        </div>
+        <div class="calc-result" id="calcResult" role="status" aria-live="polite">
+          <div class="calc-bmi-val" id="bmiValue">—</div>
+          <div class="calc-bmi-label" id="bmiLabel">—</div>
+          <div class="calc-bmi-range" id="bmiRange"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT / FREE TRIAL
+     ============================================================ -->
+<section id="contact" aria-label="Contact and Free Trial">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="contact-text">
+        <div class="reveal">
+          <div class="section-label">Get Started</div>
+          <h2 class="section-title">Claim Your <span class="green">Free</span> Trial</h2>
+          <div class="divider"></div>
+        </div>
+        <p class="reveal reveal-delay-1">
+          No commitment. No pressure. Just 7 days of unlimited access to every facility,
+          class, and expert at FORGE — completely free.
+        </p>
+        <ul class="contact-bullets reveal reveal-delay-2">
+          <li class="contact-bullet">
+            <div class="contact-bullet-icon">✓</div>
+            7 days full facility access
+          </li>
+          <li class="contact-bullet">
+            <div class="contact-bullet-icon">✓</div>
+            Free 1-on-1 fitness assessment
+          </li>
+          <li class="contact-bullet">
+            <div class="contact-bullet-icon">✓</div>
+            Personalized workout plan
+          </li>
+          <li class="contact-bullet">
+            <div class="contact-bullet-icon">✓</div>
+            No credit card required
+          </li>
+        </ul>
+      </div>
+      <div class="contact-form-wrap reveal reveal-delay-2">
+        <div class="contact-form-title">Start Your Journey</div>
+        <div class="contact-form-sub">Fill in your details and we'll be in touch within 24 hours.</div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="formName">Full Name</label>
+              <input type="text" id="formName" name="name" placeholder="John Smith" required autocomplete="name" />
+            </div>
+            <div class="form-field">
+              <label for="formPhone">Phone Number</label>
+              <input type="tel" id="formPhone" name="phone" placeholder="+1 (555) 000-0000" required autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="formEmail">Email Address</label>
+            <input type="email" id="formEmail" name="email" placeholder="john@example.com" required autocomplete="email" />
+          </div>
+          <div class="form-field">
+            <label for="formGoal">Fitness Goal</label>
+            <select id="formGoal" name="goal" required>
+              <option value="" disabled selected>Select your primary goal</option>
+              <option value="weightloss">Weight Loss</option>
+              <option value="muscle">Muscle Building</option>
+              <option value="fitness">General Fitness</option>
+              <option value="athletic">Athletic Performance</option>
+              <option value="rehab">Injury Rehabilitation</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <button type="submit" class="form-submit">Start Free Trial →</button>
+          <p class="form-note">By submitting you agree to our <a href="#">Privacy Policy</a>. We never spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     LOCATION
+     ============================================================ -->
+<section id="location" aria-label="Location and Hours">
+  <div class="container">
+    <div class="location-inner">
+      <div class="reveal">
+        <div class="map-container">
+          <div class="map-placeholder-text">
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#BFC4C9" stroke-width="0.8">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <p>Interactive Map Placeholder<br/>Replace with Google Maps embed</p>
+          </div>
+          <div class="map-overlay-badge">
+            <div class="map-badge-name">FORGE Fitness</div>
+            <div class="map-badge-addr">123 Elite Avenue, Midtown</div>
+          </div>
+        </div>
+      </div>
+      <div class="location-info reveal reveal-delay-1">
+        <div class="info-block">
+          <div class="info-block-title">Working Hours</div>
+          <div class="info-row"><span class="label">Monday – Friday</span><span class="val open">5:00 AM – 11:00 PM</span></div>
+          <div class="info-row"><span class="label">Saturday</span><span class="val open">6:00 AM – 10:00 PM</span></div>
+          <div class="info-row"><span class="label">Sunday</span><span class="val open">7:00 AM – 9:00 PM</span></div>
+          <div class="info-row"><span class="label">Public Holidays</span><span class="val">8:00 AM – 6:00 PM</span></div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-title">Contact</div>
+          <div class="info-row"><span class="label">Phone</span><span class="val">+1 (555) FORGE-01</span></div>
+          <div class="info-row"><span class="label">Email</span><span class="val">hello@forgegym.com</span></div>
+          <div class="info-row"><span class="label">Address</span><span class="val">123 Elite Ave, NYC 10001</span></div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-title">Parking</div>
+          <div class="info-row"><span class="label">Valet Parking</span><span class="val open">Available</span></div>
+          <div class="info-row"><span class="label">Self-Park</span><span class="val">$5 / 2 hours</span></div>
+          <div class="info-row"><span class="label">Bike Storage</span><span class="val open">Free</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer aria-label="Site footer">
+  <div class="container">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <div class="footer-logo">FORGE.</div>
+        <p class="footer-tagline">Where champions are made. Premium fitness, elite coaching, and a community built to push boundaries.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Twitter/X">X</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="TikTok">TK</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Quick Links</div>
+        <nav class="footer-links" aria-label="Quick links">
+          <a href="#about">About Us</a>
+          <a href="#programs">Programs</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#contact">Free Trial</a>
+        </nav>
+      </div>
+      <div>
+        <div class="footer-col-title">Membership</div>
+        <nav class="footer-links" aria-label="Membership links">
+          <a href="#membership">Basic Plan</a>
+          <a href="#membership">Premium Plan</a>
+          <a href="#membership">Elite Plan</a>
+          <a href="#contact">Corporate</a>
+          <a href="#contact">Student Rate</a>
+          <a href="#">Gift Cards</a>
+        </nav>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact Us</div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">📍</span>
+          <span class="footer-contact-text">123 Elite Avenue, Midtown<br />New York, NY 10001</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">📞</span>
+          <span class="footer-contact-text">+1 (555) FORGE-01</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">✉️</span>
+          <span class="footer-contact-text">hello@forgegym.com</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">⏰</span>
+          <span class="footer-contact-text">Mon–Fri: 5AM – 11PM</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 <span>FORGE Fitness</span>. All rights reserved.</p>
+      <nav class="footer-legal" aria-label="Legal links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast notification -->
+<div class="toast" id="toast" role="alert" aria-live="assertive">
+  <span class="toast-icon">✓</span>
+  <span class="toast-text">Request received! We'll contact you within 24 hours.</span>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
